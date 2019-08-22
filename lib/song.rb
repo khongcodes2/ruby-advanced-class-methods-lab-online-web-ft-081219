@@ -48,6 +48,7 @@ class Song
     new_song=self.new
     new_song.name=holder[1]
     new_song.artist_name=holder[0]
+    new_song
   end
 
 end
