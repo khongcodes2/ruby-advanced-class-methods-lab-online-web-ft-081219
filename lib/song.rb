@@ -50,5 +50,10 @@ class Song
     new_song.artist_name=holder[0]
     new_song
   end
+  
+  def self.create_from_filename(filename)
+    song_return=self.new_from_filename(filename)
+    song_return.save
+  end
 
 end
