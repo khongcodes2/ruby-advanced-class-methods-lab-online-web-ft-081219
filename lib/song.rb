@@ -32,6 +32,11 @@ class Song
   end
 
   def self.find_or_create_by_name(name_string)
+    if self.find_by_name(name_string)
+      self.find_by_name(na)
+    else
+     
+    end
     
   end
 
